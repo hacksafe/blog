@@ -66,13 +66,14 @@
 	var friendLinksTab = $('#friend-links-tab')
 	var linksTab = $('#links-tab')
 
-	if (tagsTab) {
-		tagsTab.tab('show')
-	} else if (friendLinksTab) {
+	if (friendLinksTab) {
 		friendLinksTab.tab('show')
+	} else if (tagsTab) {
+		tagsTab.tab('show')
 	} else if (linksTab) {
 		linksTab.tab('show')
 	}
+	
 
 
 	if (tagsTab) {

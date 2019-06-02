@@ -3,7 +3,7 @@
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">      
-    <title>Hello World-绿帽个人博客</title>
+    <title>什么是404页面-绿帽个人博客</title>
     <link href="http://blog.hacksafe.cc" rel="prefetch">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
 <link rel="stylesheet" href="/css/aos.css">
@@ -106,42 +106,20 @@
                 
                 
                 
-                <li class="dropdown">
-                    <!-- TODO 添加hover dropdown效果 -->
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-hover="dropdown">
+                <li class>
+                    <a href="/categories">
                         <i class="fa fa-list"></i>分类
                     </a>
-                    <ul class="dropdown-menu">
-                        
-                        
-                        <li>
-                            <a href="/categories/1双数/">1双数</a>
-                        </li>
-                        
-                        
-                        
-                    </ul>
                 </li>
                 
                 
                 
                 
                 
-                <li class="dropdown">
-                    <!-- TODO 添加hover dropdown效果 -->
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-hover="dropdown">
+                <li class>
+                    <a href="/tags">
                         <i class="fa fa-tags"></i>标签
                     </a>
-                    <ul class="dropdown-menu">
-                        
-                        
-                        <li>
-                            <a href="/tags/11/">11</a>
-                        </li>
-                        
-                        
-                        
-                    </ul>
                 </li>
                 
                 
@@ -176,19 +154,19 @@
         <i class="fa fa-home"></i>
         <a href="http://blog.hacksafe.cc">绿帽个人博客</a>
         >
-        <span>Hello World</span>
+        <span>什么是404页面</span>
     </div>
     <!-- 大型设备详细文章 -->
     <div class="hidden-xs">
         <div class="title-article">
             <h1>
-                <a href="/posts/undefined/">Hello World</a>
+                <a href="/article/0.html">什么是404页面</a>
             </h1>
         </div>
         <div class="tag-article">
             
             <span class="label label-gal">
-                <i class="fa fa-calendar"></i> 2019-05-30
+                <i class="fa fa-calendar"></i> 2019-06-03
             </span>
             
         </div>
@@ -198,11 +176,11 @@
         <center>
             <div class="title-article">
                 <h4>
-                    <a href="/posts/undefined/">Hello World</a>
+                    <a href="/article/0.html">什么是404页面</a>
                 </h4>
             </div>
             <p>
-                <i class="fa fa-calendar"></i> 2019-05-30
+                <i class="fa fa-calendar"></i> 2019-06-03
             </p>
             <p>
                 
@@ -211,19 +189,26 @@
         </center>
     </div>
     <div class="content-article">
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+        <p>什么是404错误页面：告诉浏览者其所请求的页面不存在或链接错误，同时引导用户使用网站其他页面而不是关闭窗口离开。<br>    产生404错误页面原因：<br>    1.网页URL生成规则改变。<br>    2.网页文件更名或移动位置。<br>    3.导入链接拼写错误。<br>    注：以上3个为常见原因，从而导致原来的URL地址无法访问；当Web 服务器接到类似请求时，会返回一个404 状态码，告诉浏览器要请求的资源并不存在。</p>
+<pre><code>一、404错误页面对SEO的影响
+1、重要程度</code></pre><p>自定义404错误页面是增强用户体验的很好的做法，但在应用过程中往往并未注意到对搜索引擎的影响，譬如：错误的服务器端配置导致返回“200”状态码或自定义404错误页面使用Meta Refresh导致返回“302”状态码。正确设置的自定义404错误页面，不仅应当能够正确地显示，同时，应该返回“404”错误代码，而不是 “200”或“302”。虽然对访问的用户而言，HTTP状态码究竟是“404”还是“200”来说并没有什么区别，但对搜索引擎这则是相当重要的。</p>
+<pre><code>2、惩罚程度</code></pre><p>搜索引擎蜘蛛在请求某个URL时得到“404”状态回应时，即知道该URL已经失效，便不再索引该网页，并向数据中心反馈将该URL表示的网页从索引数据库中删除，当然，删除过程有可能需要很长时间；而当搜索引擎得到“200”状态码时，则会认为该url是有效的，便会去索引，并会将其收录到索引数据库，这样的结果便是这两个不同的url具有完全相同的内容：自定义404错误页面的内容，这会导致出现复制网页问题。轻则被搜索引擎降权，重则会K掉网站。</p>
+<pre><code>二、404错误页面解决办法
+1.把缺少的网页文件恢复到正确的位置，重新设置网络服务。
+2.对于用户来讲，需要检查你所输入的网络地址是否正确。</code></pre><p>三、设置404错误页面的方法<br>    1.对于存在的网页内容由于路径改变而导致访问不了时，可在IIS 中定义404错误指向一个动态页面，在页面里面使用301永久重定向跳转到新的地址，此时服务器返回301状态码。<br>    2.设置404指向一个设计好的html 文件，此时页面返回的404状态码。 现在的idc提供商基本都提供404设置的功能，直接上传文件设置即可。在IIs中设置方法：打开IIS管理器–&gt;点击要设置自定义404的网站的属性–&gt;点击自定义错误选项–&gt;选中404页–&gt;选中并打开编辑属性–&gt;设置成 URL –&gt; URL 里填写“/err404.html”–&gt;按确定退出再把做好的err404.html 页面上传到网站根目录下。此处在“消息类型”中一定要选择“文件”或“默认值”，而不要选择“URL”，不然，将导致返回“200”状态码。<br>3.404指向一个动态页面，比如error.asp,如果不在页面里面进行设置，仅仅是返回提示的HTML 代码，将导致页面返回200 状态码，这是不正确的，我们可以在显示完提示内容后，增加语句： Response.Status=”404 Not Found” ，这样就保证页面返回404状态码。<br>4、Apache下设置404错误页面。为Apache Server设置404错误页面的方法很简单，只需在.htaccess 文件中加入如下内容即可，ErrorDocument 404 /notfound.php。</p>
+<pre><code>四、如何制作404错误页面：
+1、Apache下设置404
+(1)在.htaccess 文件中加入如下内容：ErrorDocument 404 /notfound.php，将.htaccess文件上传到网站根目录。
+(2)制作一个404页面，随便您设计，命名为notfound.php，同样上传到网站根目录。
+2、IIS/.net设置404
+首先，修改应用程序根目录的设置，打开 web.config文件编辑，在其中加入如下内容：</code></pre><p> 　　 　　 　　 　　 　　<br>    注：上文例中error.asp为系统默认的404页面，notfound.asp为自定义的404页面，使用时请修改相应文件名。然后，在自定义的404页面notfound.asp中加入：&lt;% found=”” not=”” response.status=”404”&gt; 。这样，便可以保证IIS能够正确地返回404状态码。 &lt;% found=”” not=”” response.status=”404”&gt;</p>
+<pre><code>五、制作设置404错误页面注意事项
+1.不要将404错误页面转向到网站主页，否则可能会导致主页在搜索引擎中消失。
+2.不要使用绝对URL，如果使用绝对URL返回的状态码是302+200。
+3.404错误页面设置完成，一定要检查是否正确。但http头信息返回的一定要是404状态。这主要是对搜索引擎有关系，因为如果你网站产生较多页面时候但搜索引擎看到的是很多一样的正常页面，有可能会误被认为作弊。
+4.404错误页面不要自动跳转，让用户来决定去向，对于用户体验很重要。
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+总结：404错误页面建议</code></pre><p>1.不使用专业术语。<br>2.不要责备访客。<br>3.提示访客检查拼写。<br>4.让页面返回404。<br>5.明确表明404。<br>6.帮助访客如果浏览。<br>7.放置网站主页链接。<br>8.访客方便反馈信息。<br>9.保持品牌风格。<br>10.让访客搜索想要的。<br>11.修复你的错误链接。<br>12.不要301重定向到主页。</p>
 
     </div>
 </article>
@@ -231,7 +216,7 @@
 
 <!--PC和WAP自适应版-->
 <div class="breadcrumb">
-<div id="SOHUCS" sid="20190530104728"></div> 
+<div id="SOHUCS" sid="20190603120117"></div> 
 </div>
 <script type="text/javascript"> 
 (function(){ 
@@ -310,25 +295,13 @@ window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="tex
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/posts/undefined/">按时大大多多</a>
+                    <a href="/article/0.html">什么是404页面</a>
                 </span>
             </li>
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/posts/undefined/">奥术大师多</a>
-                </span>
-            </li>
-            
-            <li class="list-group-item">
-                <span class="post-title">
-                    <a href="/posts/undefined/">啊啊啊啊</a>
-                </span>
-            </li>
-            
-            <li class="list-group-item">
-                <span class="post-title">
-                    <a href="/posts/undefined/">Hello World</a>
+                    <a href="/article/538b512a.html">庆祝绿帽的个人博客</a>
                 </span>
             </li>
             
@@ -350,25 +323,13 @@ window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="tex
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/posts/undefined/">啊啊啊啊</a>
+                    <a href="/article/538b512a.html">庆祝绿帽的个人博客</a>
                 </span>
             </li>
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/posts/undefined/">Hello World</a>
-                </span>
-            </li>
-            
-            <li class="list-group-item">
-                <span class="post-title">
-                    <a href="/posts/undefined/">奥术大师多</a>
-                </span>
-            </li>
-            
-            <li class="list-group-item">
-                <span class="post-title">
-                    <a href="/posts/undefined/">按时大大多多</a>
+                    <a href="/article/0.html">什么是404页面</a>
                 </span>
             </li>
             
@@ -383,25 +344,19 @@ window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="tex
 
                 
                 <li>
-                    <a href="/posts/undefined/index.html#sidebar-tags" data-toggle="tab" id="tags-tab">热门标签</a>
+                    <a href="/article/0.html#sidebar-tags" data-toggle="tab" id="tags-tab">热门标签</a>
                 </li>
                 
                 
                 <li>
-                    <a href="/posts/undefined/index.html#sidebar-friend-links" data-toggle="tab" id="friend-links-tab">友情链接</a>
+                    <a href="/article/0.html#sidebar-friend-links" data-toggle="tab" id="friend-links-tab">友情链接</a>
                 </li>
                 
-                
-                <li>
-                    <a href="/posts/undefined/index.html#sidebar-links" data-toggle="tab" id="links-tab">个人链接</a>
-                </li>
                 
             </ul>
             <div class="tab-content">
                 
                 <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
-    
-    <a href="/tags/11/" style="font-size: 8.585667850300188px;" class="tag-cloud-link">11</a>
     
 </div>
                 
@@ -409,35 +364,11 @@ window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="tex
                 <div class="friend-links tab-pane nav bs-sidenav fade" id="sidebar-friend-links">
     
     <li>
-        <a href="http://kdays.net/days/" target="_blank">KDays Forum</a>
-    </li>
-    
-    <li>
-        <a href="http://www.gal123.com/" target="_blank">绅士导航♂</a>
-    </li>
-    
-    <li>
-        <a href="http://www.moe123.com/" target="_blank">萌导航</a>
+        <a href="http://blog.hacksafe.cc" target="_blank">绿帽博客</a>
     </li>
     
 </div>
                 
-                
-                <div class="links tab-pane nav bs-sidenav fade" id="sidebar-links">
-    
-    <li>
-        <a href="https://github.com/ZEROKISEKI/" target="_blank">Github</a>
-    </li>
-    
-    <li>
-        <a href="https://coding.net/u/SORA1" target="_blank">Coding</a>
-    </li>
-    
-    <li>
-        <a href="https://www.zhihu.com/people/aonosora/activities" target="_blank">知乎</a>
-    </li>
-    
-</div>
                 
             </div>
         </div>
@@ -449,7 +380,7 @@ window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="tex
     </div>
     <footer id="gal-footer">
     <div class="container">
-        Copyright © 2018 绿帽 Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>.&nbsp;Theme by <a href="https://github.com/ZEROKISEKI" target="_blank">AONOSORA</a>
+        Copyright © 2018 绿帽 Powered by <a href="http://blog.hacksafe.cc/" target="_blank">Blog</a>
     </div>
 </footer>
 
